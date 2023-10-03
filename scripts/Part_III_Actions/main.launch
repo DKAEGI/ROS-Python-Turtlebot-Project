@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="myrosject" type="find_nearest_wall_service.py" name="find_nearest_wall_service_server_node" output="screen" />
+    <node pkg="myrosject" type="follow_wall_part_3.py" name="follow_wall_node" output="screen" />
+    <node pkg="myrosject" type="odometry_action_server.py" name="record_odom_node" output="screen" />
+</launch>
